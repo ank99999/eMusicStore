@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Feb/2017:15:04:25 -0500] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:28 -0500] "GET /eMusicStore/ HTTP/1.1" 200 8792
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:28 -0500] "GET /eMusicStore/resources/css/carousel.css;jsessionid=FA2E662A165C8F931DDCF274C266485F HTTP/1.1" 200 2672
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:28 -0500] "GET /eMusicStore/resources/css/bootstrap.min.css;jsessionid=FA2E662A165C8F931DDCF274C266485F HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:28 -0500] "GET /eMusicStore/resources/js/bootstrap.min.js;jsessionid=FA2E662A165C8F931DDCF274C266485F HTTP/1.1" 200 37045
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:39 -0500] "GET /eMusicStore/admin HTTP/1.1" 200 3757
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:42 -0500] "GET /eMusicStore/admin/productInventory HTTP/1.1" 200 9618
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:42 -0500] "GET /eMusicStore/admin/productInventory HTTP/1.1" 200 9618
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:04:47 -0500] "GET /eMusicStore/admin/productInventory/addProduct HTTP/1.1" 200 5934
+0:0:0:0:0:0:0:1 - - [22/Feb/2017:15:05:21 -0500] "POST /eMusicStore/admin/productInventory/addProduct HTTP/1.1" 500 3841
