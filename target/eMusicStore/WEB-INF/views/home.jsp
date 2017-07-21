@@ -68,16 +68,16 @@
       <div class="row">
       
         <div class="col-lg-4">
-        <a class=""btn btn-default" role="button" href="<c:url value="product/productList?searchCondition=Instrument"/>">
-          <img class="img-circle" src="<c:url value="/resources/images/Instrument.png"/> alt="Instrument Image" width="200" height="160">
+        <a class="btn btn-default" role="button" href="<c:url value="product/productList?searchCondition=Instrument"/>">
+          <img class="img-circle" src="/resources/images/Instrument.png" alt="Instrument Image" width="200" height="160"/>
         </a>
           <h2>Instrument</h2>
           <p>It's easy to play any musical instrument, all you have to do is touch the right key at the right time and the instrument will play itself</p>
-        </div><!-- /.col-lg-4 -->
+     </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
         <a class="btn btn-default" href="<c:url value="product/productList?searchCondition=Record"/>" role="button">
-          <img class="img-circle" src="/resources/images/Record.png" alt="Record Image" width="200" height="140">
+          <img class="img-circle" src="/resources/images/Record.png" alt="Record Image" width="200" height="140"/>
          </a>
           <h2>Discography</h2>
           <p>Don't forget the songs that made you cry and the songs that saved your life. Yes, you are older now and much clever but they were the only ones who stood by you</p>
@@ -91,8 +91,8 @@
           <p>You have to take a deep breath and allow the music to flow through you</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-   </div>
-    
+
+    </div>
 
     <%@include file="/WEB-INF/views/templates/footer.jsp" %>
       
