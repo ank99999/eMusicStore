@@ -7,20 +7,19 @@ cartApp.controller("cartCtrl",function($scope,$http){
 	//var cart = [];
 	
 	$scope.addTocart = function(productID){
-		$http.put("/eMusicStore/rest/customer/cart/add/"+productID).success(function(){
+		$http.put("/rest/customer/cart/add/"+productID).success(function(){
 		      alert("product Successfully added to the cart");
 		});
 		
 	};
 	
 	$scope.initCart = function(cartId){
-		   alert("Inside Init function");
 		     $scope.cartId = cartId;
 			 $scope.refreshCart();
 	};
 	
 	$scope.refreshCart = function(){
-		$http.get("/eMusicStore/rest/customer/cart/"+$scope.cartId).success(function(data){		
+		$http.get("/rest/customer/cart/"+$scope.cartId).success(function(data){		
 //			alert("Inside refresh function");
 //			for(var i = 0 ; i< data.length; i++){
 //    		   cart.push(data[i]);
