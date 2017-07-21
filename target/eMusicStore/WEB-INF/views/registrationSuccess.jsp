@@ -6,7 +6,7 @@
              <h2>Customer Registered Successfully!!</h2>
             </div>
             <section>
-            <a href="<c:url value="/product/productList" />" class="btn btn-warning">Let's Start Shopping!!</a>
+            <a href="<c:url value="/product/productList/All" />" class="btn btn-warning">Let's Start Shopping!!</a>
             </section>
             </div>
             </div>

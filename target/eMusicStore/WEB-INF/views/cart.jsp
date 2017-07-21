@@ -48,7 +48,7 @@
 </tbody>
 </table>
 
-<a class="btn btn-warning" href="<c:url value='/product/productList'/>">Continue Shopping</a>
+<a class="btn btn-warning" href="<c:url value='/product/productList/All'/>">Continue Shopping</a>
 </div>
 </div>
 </section>
