@@ -11,7 +11,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "BillingAddress")
+@Table(name = "billingaddress")
 public class BillingAddress implements Serializable{
 
 	private static final long serialVersionUID = 2301856522245224860L;

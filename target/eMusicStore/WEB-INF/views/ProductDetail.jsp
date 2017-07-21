@@ -23,7 +23,7 @@
 </div>
 <br/>
 <c:set var="role" scope="page" value="${param.role}"/>
-<c:set var="url" scope="page" value="/product/productList"/>
+<c:set var="url" scope="page" value="/product/productList/All"/>
  <c:if test="${role == 'admin'}">
    <c:set var="url" scope="page" value="/admin/product/productInventory"/> 
  </c:if>

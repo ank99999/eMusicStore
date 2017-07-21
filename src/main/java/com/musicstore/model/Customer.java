@@ -15,7 +15,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name = "Customer")
+@Table(name = "customer")
 public class Customer implements Serializable{
 	
 	private static final long serialVersionUID = 8232371679725522148L;

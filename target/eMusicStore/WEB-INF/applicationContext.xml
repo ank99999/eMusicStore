@@ -83,7 +83,7 @@
               <!-- Set the login page and what to do if login fails -->
               <security:form-login login-page="/login" 
                          authentication-failure-url="/login?error" 
-                         default-target-url="/product/productList" 
+                         default-target-url="/product/productList/All" 
                          username-parameter="username" 
                          password-parameter="password"/>
              <security:logout logout-success-url="/login?logout"/>

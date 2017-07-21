@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
 @Entity
-@Table(name = "Product", schema = "musicstore" )
+@Table(name = "product", schema = "heroku_2a9214216160cb1" )
 public class Product implements Serializable{
   
 	private static final long serialVersionUID = 1952045726114159867L;
