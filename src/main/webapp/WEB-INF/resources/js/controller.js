@@ -32,13 +32,13 @@ cartApp.controller("cartCtrl",function($scope,$http){
 	
 	
 	$scope.clearCart = function(){
-		$http['delete']("/eMusicStore/rest/customer/cart/"+$scope.cartId).success($scope.refreshCart());
+		$http['delete']("/rest/customer/cart/"+$scope.cartId).success($scope.refreshCart());
 	};
 	
 
 	
 	$scope.removeFromCart = function(productId,cartId){
-		$http.put("/eMusicStore/rest/customer/cart/remove/"+productId+"/"+cartId).success(function(){
+		$http.put("/rest/customer/cart/remove/"+productId+"/"+cartId).success(function(){
 			$scope.refreshCart();  
 			alert("Item removed from cart");
 		});
@@ -51,7 +51,6 @@ cartApp.controller("cartCtrl",function($scope,$http){
 		for(var i = 0 ; i < $scope.cart.listCartItems.length ; i++){
 			grandTotal+=$scope.cart.listCartItems[i].totalPrice;
 		}
-		alert("grand total is "+ grandTotal);
 		return grandTotal;
 	};
 	

@@ -8,7 +8,7 @@
              <p>Your checkout has been cancelled.You may continue shopping.</p>
             </div>
             <section>
-            <a href="<c:url value="/product/productList" />" class="btn btn-warning">Products</a>
+            <a href="<c:url value="/product/productList/All" />" class="btn btn-warning">Products</a>
             </section>
             </div>
             </div>
