@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var searchCondition = '${searchCondition}';
 	$('.table').DataTable({
 		'lengthMenu' : [[1,2,5,10,-1],[1,2,5,10,"All"]],
-	    'oSearch' : {'oSearch':searchCondition}
+	    'oSearch' : {"sSearch":searchCondition}
 	});
 });
 
