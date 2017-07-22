@@ -36,7 +36,7 @@ $(document).ready(function(){
   <tbody>
      <c:forEach items="${listOfProducts}" var="product">
       <tr>
-      <td><img src="<c:url value="WEB-INF/resources/images/${product.productID}.png"/>" style="width:100%;height:150px"/></td>
+      <td><img src="<c:url value="/resources/images/${product.productID}.png"/>" style="width:100%;height:150px"/></td>
       <td>${product.productName}</td>
       <td>${product.productCategory}</td>
       <td>${product.productCondition}</td>

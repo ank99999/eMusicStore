@@ -46,7 +46,7 @@ public class AdminProduct {
 		
 		  productService.addProduct(p);	
 		  String rootDirectory = request.getSession().getServletContext().getRealPath("/");
-		  path = Paths.get(rootDirectory+"\\WEB-INF\\resources\\images\\"+p.getProductID()+".png");		 
+		  path = Paths.get(rootDirectory+"\\resources\\images\\"+p.getProductID()+".png");		 
 		 if(productImage != null && !productImage.isEmpty()){
 			 
 			try {
